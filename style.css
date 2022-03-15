@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo {
+    background-color: #fff;
+    margin-left: 2rem;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+ .navbar ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.2rem 
+ }
+ .navbar ul li a:hover {
+     color:red
+ }
+ .banner {
+     background-image: url();
+     height: 75vh;
+ }
+.seccion-peliculas {
+    display: flex;
+    flex-direction: column;
+}
+.seccion-peliculas h2 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.card {
+    width: 16rem; 
+}
+.card img {
+    width: 16rem;
+}
+.textos {
+    display: flex;
+    justify-content: space-around;
+    color: red;
+}
+.textos h3 {
+color: #000;
+}
+
+p span {
+    font-size: 7rem;
+}
